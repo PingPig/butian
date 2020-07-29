@@ -41,7 +41,7 @@ def spider():
         'Content-Type': 'application/x-www-form-urlencoded; charset=UTF-8',
         'X-Requested-With': 'XMLHttpRequest',
         'Referer': 'https://www.butian.net/Reward/plan',
-        'Cookie': 'e9d54a98982c62d43f12610f3e92b9c3481f65699e1e356ba5b50997e7fef041',#填自己cookie
+        'Cookie': '',#填自己cookie
         'Connection': 'keep-alive'
     }
     for i in range(1, total):
@@ -81,7 +81,7 @@ def Url():
         'content-type': 'application/json',
         'User-Agent': 'Mozilla/5.0 (X11; Ubuntu; Linux x86_64; rv:22.0) Gecko/20100101 Firefox/22.0'
         }
-    cookie = 'e9d54a98982c62d43f12610f3e92b9c3481f65699e1e356ba5b50997e7fef041'
+    cookie = ''
     cookies={'btlc_ba52447ea424004a7da412b344e5e41a':cookie}
     with open('id.txt','r') as f:
         for target in f.readlines():
